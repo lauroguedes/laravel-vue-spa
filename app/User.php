@@ -1,11 +1,11 @@
 <?php
 
-namespace App;
+namespace MTEl;
 
 use Tymon\JWTAuth\Contracts\JWTSubject;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use App\Notifications\ResetPassword as ResetPasswordNotification;
+use MTEl\Notifications\ResetPassword as ResetPasswordNotification;
 
 class User extends Authenticatable implements JWTSubject
 {

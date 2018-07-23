@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace MTEl\Providers;
 
 use Laravel\Dusk\DuskServiceProvider;
 use Illuminate\Support\Facades\Schema;

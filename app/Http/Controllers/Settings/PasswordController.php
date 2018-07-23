@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Http\Controllers\Settings;
+namespace MTEl\Http\Controllers\Settings;
 
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
+use MTEl\Http\Controllers\Controller;
 
 class PasswordController extends Controller
 {

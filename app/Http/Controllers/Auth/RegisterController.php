@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace MTEl\Http\Controllers\Auth;
 
-use App\User;
+use MTEl\User;
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
+use MTEl\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 
